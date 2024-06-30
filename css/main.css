@@ -1,0 +1,110 @@
+body {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.atrnd-h1 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.atrnd-p1 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.6
+}
+
+.atrnd-p2 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.6
+}
+
+.atrnd-box {
+  border: 2px solid rgba(0,0,0,1);
+  padding: 1rem;
+}
+
+.bg {
+  background-color: rgba(150,150,150,.5);
+}
+
+.atrnd-hr {
+    border: 0;
+    height: 1px;
+    background: #000;
+    margin: 1rem 0 1rem 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: baseline;
+}
+
+.atrnd-box {
+    width: 16px;
+    height: 16px;
+    background-color: #B7B7B7;
+    margin-right: 10px;
+    border-radius: 0;
+    border: 0;
+}
+
+.atrnd-num-fx {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.atrnd-glider {
+  width: 66px;
+  height: 66px;
+}
+
+.atrnd-github {
+  width: 66px;
+  height: 66px;
+  transition: all .3s ease;
+}
+
+.atrnd-github:hover {
+  opacity: .6;
+}
+
+.atrnd-columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.atrnd-column {
+    margin: 0 12.5px;
+}
+
+.atrnd-column:first-child {
+    margin-left: 0;
+}
+
+.atrnd-column:last-child {
+    margin-right: 0;
+}
+
+.atrnd-fx-1,
+.atrnd-fx-2,
+.atrnd-fx-3 {
+  opacity: .2;
+}
